@@ -1,0 +1,50 @@
+[
+    {
+        "CustomerID": "01",
+        "CustomerName": "Den Smith",
+        "TransactionDate": "2023-12-15",
+        "PurchaseAmount": 100.00
+    },
+    {
+        "CustomerID": "01",
+        "CustomerName": "Den Smith",
+        "TransactionDate": "2024-12-15",
+        "PurchaseAmount": 120.00
+    },
+    {
+        "CustomerID": "01",
+        "CustomerName": "Den Smith",
+        "TransactionDate": "2024-11-15",
+        "PurchaseAmount": 100.90
+    },
+    {
+        "CustomerID": "02",
+        "CustomerName": "Lia ",
+        "TransactionDate": "2024-06-20",
+        "PurchaseAmount": 55.00
+    },
+    {
+        "CustomerID": "01",
+        "CustomerName": "Den Smith",
+        "TransactionDate": "2024-07-05",
+        "PurchaseAmount": 200.00
+    },
+    {
+        "CustomerID": "02",
+        "CustomerName": "Lia ",
+        "TransactionDate": "2024-07-22",
+        "PurchaseAmount": 95.00
+    },
+    {
+        "CustomerID": "01",
+        "CustomerName": "Den Smith",
+        "TransactionDate": "2024-07-10",
+        "PurchaseAmount": 130.00
+    },
+    {
+        "CustomerID": "02",
+        "CustomerName": "Lia ",
+        "TransactionDate": "2024-08-25",
+        "PurchaseAmount": 110.00
+    }
+]
