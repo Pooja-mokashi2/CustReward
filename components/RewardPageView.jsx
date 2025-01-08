@@ -27,7 +27,7 @@ const RewardPageView = ({
                 className="text-primary"
                 style={{ fontWeight: "500", fontSize: "26px" }}
               >
-                Congrats your total reward points are {totalPoints.toFixed(2)}{" "}
+                Your total reward points are {totalPoints.toFixed(2)}{" "}
                 points{" "}
               </h3>
             </div>

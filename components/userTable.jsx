@@ -2,8 +2,8 @@ import React from "react";
 
 const UserTable = ({ data }) => {
   const columns = [
-    { id: "PurchaseAmount", label: "PurchaseAmount" },
-    { id: "TransactionDate", label: "TransactionDate" },
+    { id: "PurchaseAmount", label: "Purchase Amount" },
+    { id: "TransactionDate", label: "Transaction Date" },
   ];
   return (
     <div className="container col-lg-6">
