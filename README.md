@@ -19,7 +19,7 @@ This function fetches the transaction data and customer name from the JSON file 
 setCustData is used to store the fetched data.
 
 <!-- Calculate Rewards Function -->
-This function calculates the rewards for the filtered transactions. We are filtering the data only of last 12 months.
+This function calculates the rewards for the filtered transactions.
 For each transaction, it calculates the points and aggregates them by month and year.
 It then extracts the last three months of points and calculates the total points for those months.
 The getMonthYearName function converts a month-year string into a readable format.

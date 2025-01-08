@@ -33,15 +33,11 @@ const RewardPage = () => {
     fetchData();
   }, []);
 
-  const currentDate = new Date();
-  const twelveMonthsAgo = new Date(currentDate.getFullYear(),currentDate.getMonth() - 12,currentDate.getDate()
-  );
 
   const filteredCustData = purchaseData.filter((item) => {
-    const transactionDate = new Date(item.TransactionDate);
-    return (item.CustomerID === customerId && transactionDate >= twelveMonthsAgo && transactionDate <= currentDate
-    );
-  }); //considering the reward for only last 1 year
+    return (item.CustomerID === customerId);
+  }); 
+
   const calculateRewards = () => {
     const rewardsPerCustomer = {};
     filteredCustData.forEach(({ PurchaseAmount, TransactionDate }) => {
